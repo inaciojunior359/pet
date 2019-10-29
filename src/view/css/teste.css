@@ -1,0 +1,42 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-size: cover;
+}
+
+
+body .login-box .busca{
+  display: inline-block;
+  position: absolute;
+  width: 25%;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: #288484;
+  background: #EEEEE0;
+  color: grey;
+  font-size: 20px;
+  padding: 8px 0;
+  padding-left: 10px;
+  margin: 8px 0;
+  border-bottom: 1px solid white;
+  border-radius: 20px 20px; 
+}
+body .login-box .buscar{
+  display: inline-block;
+  position: absolute;
+  width: 10%;
+  top: 30%;
+  left: 75%;
+  border: none;
+  transform: translate(-50%, -50%);
+  background: #000;
+  color: grey;
+  font-size: 20px;
+  padding: 9px 0;
+  margin: 9px 0;
+  border-bottom: 1px solid white;
+  border-radius: 0px 20px 20px 0px; 
+}

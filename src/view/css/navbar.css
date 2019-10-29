@@ -1,0 +1,59 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #01004c;
+  overflow: hidden;
+}
+
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+    transition: 0.5s;
+}
+.navbar input{
+  background-color: transparent;
+}
+
+/* Current/active navbar link 
+.active {
+  background-color: #0CBFF4;
+}*/
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+a{
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 50px;
+}
+
+body{
+    margin: 0px;
+}
+
+
+
+
+
+
+

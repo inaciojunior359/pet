@@ -1,0 +1,96 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: cover;
+}
+body .login-box img {
+	margin-top: 50px;
+	position: relative;
+	width: 280px;
+	height: 120px;
+}
+
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #288484;
+	
+}
+.login-box h1 {
+	color: white;
+	float: left;
+	font-size: 15px;
+	padding: 13px 0;
+}
+.texto-box{
+
+    background: #EEEEE0;
+	color: grey;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid white;
+	border-radius: 20px 20px; 
+
+}
+.texto-box i{
+	width: 35px;
+	float: left;
+	text-align: center;	
+}
+.texto-box input{
+	border: none;
+	outline: none;
+	background: none;
+	color: grey;
+	font-size: 18px;
+	width: 75%;
+	height: 17px;
+	float: left;
+	margin: 0 1px;
+}
+.botao {
+    background: #0c78d0;
+	color: white;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-radius: 20px 20px; 
+}
+.botao:hover{
+	background:#1d69a7;
+	transition: 0.5s;
+
+}
+.botaoHome {
+	width: 100%;
+	background: none;
+	border: 0px solid #288484;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	margin: 0px 0;
+	margin-top: 0px;
+	transition: 0.5s;
+	 border-radius: 20px 20px; 
+	
+}
+.botaoHome:hover{
+	text-decoration: underline;
+	
+
+}
+
+img{
+width:20%;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/background.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CADASTRAR EVENTO - ALLEVENTS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="cadastro_eventos.css" />
+   
+    <link rel="shortcut icon" type="image/x-png" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <header>
+   <div class="navbar">
+     <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+     <a href="#"><i class="fa fa-fw fa-search"></i> Buscar Eventos</a> 
+     <a href="#"><i class="fa fa-fw fa-calendar"></i> Meus Eventos</a>
+   </div>
+ </header>
+
+    <section class="container">
+        <div class="login-box">
+            <form id="form" action="eventos.jsp" method="post" >
+                <div class="texto-box">
+                  <input id="nome" name="nome" placeholder="Nome do Evento" type="text" class="campo">
+                </div>
+                <div class="texto-box">
+                  <select id="cidade" name="cidade" class="campo">
+                          <option value="recife">Recife</option>
+                          <option value="santacruz">Santa Cruz do Capibaribe</option>
+                          <option value="jaboatao">Jaboatao dos Guararapes</option>
+                          <option value="caruaru">Caruaru</option>
+                          <option value="olinda">Olinda</option>
+                          <option value="paulista">Paulista</option>
+                          <option value="petrolina">Petrolina</option>
+                    </select>
+                </div>
+                <div class="texto-box">
+                  <input id="local" name="local" placeholder="Ex.: Em frente ao restaurante mané matuto" type="text" class="campo">
+                </div>
+                <div>
+                  <input id="date" name="date" type="Date">
+                  <input id="hour" name="hour" type="Time">
+                </div>
+                <div class="texto-box">
+                  <input id="contato" name="contato" placeholder="Ex.: (81)98888-8888" type="text" class="campo">
+                </div>
+                <div class="texto-box">
+                 <input type="file" id="input" onchange="handleFiles(this.files)"/>
+                </div>
+                <div class="texto-box">
+                <button type="submit" value="Enviar" id="botao">Cadastrar</button>
+                </div>
+                <input type="hidden" id="recebe" name="inputRecebe" value="" />   
+            </form>
+        </div>
+    </section>
+</body>
+</html>
